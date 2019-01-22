@@ -85,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-233" y="-528"/>
+            <point key="canvasLocation" x="-116" y="-515"/>
         </scene>
         <!--DesireVC-->
         <scene sceneID="uYS-T9-Gze">
@@ -125,6 +125,9 @@
                                         <state key="normal" title="Men">
                                             <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="mensTaped:" destination="gOH-C7-w9J" eventType="touchUpInside" id="qhj-MZ-2CA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF0-mh-n9a" customClass="borderButton" customModule="Swoosh_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="70" width="280" height="60"/>
@@ -136,6 +139,9 @@
                                         <state key="normal" title="Womans">
                                             <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="womansTaped:" destination="gOH-C7-w9J" eventType="touchUpInside" id="9wl-VM-egh"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsL-aG-xv0" customClass="borderButton" customModule="Swoosh_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="140" width="280" height="60"/>
@@ -147,10 +153,13 @@
                                         <state key="normal" title="Co-ed">
                                             <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="coedTaped:" destination="gOH-C7-w9J" eventType="touchUpInside" id="LNS-SK-ber"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2x-cl-UBZ" customClass="borderButton" customModule="Swoosh_App" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2x-cl-UBZ" customClass="borderButton" customModule="Swoosh_App" customModuleProvider="target">
                                 <rect key="frame" x="20" y="498" width="280" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.51408450699999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -160,6 +169,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextAction:" destination="gOH-C7-w9J" eventType="touchUpInside" id="n9t-pf-96x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qy1-Ps-z88">
                                 <rect key="frame" x="10" y="30" width="29" height="24"/>
@@ -193,6 +205,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="n9G-5t-Dxe"/>
                     </view>
+                    <connections>
+                        <outlet property="NextBtn" destination="X2x-cl-UBZ" id="lMp-l9-hfM"/>
+                        <segue destination="aa5-er-XaE" kind="show" identifier="desireSegue" id="dKH-wQ-wUb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vhV-cC-10h" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="c6o-KC-dw2" userLabel="Exit" sceneMemberID="exit"/>
