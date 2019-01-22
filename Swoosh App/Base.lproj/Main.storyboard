@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="-233" y="-528"/>
         </scene>
-        <!--View Controller-->
+        <!--DesireVC-->
         <scene sceneID="uYS-T9-Gze">
             <objects>
-                <viewController id="gOH-C7-w9J" sceneMemberID="viewController">
+                <viewController id="gOH-C7-w9J" customClass="DesireVC" customModule="Swoosh_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pzy-1z-HX4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,10 +199,10 @@
             </objects>
             <point key="canvasLocation" x="630" y="-528"/>
         </scene>
-        <!--View Controller-->
+        <!--Finish Vc View Controller-->
         <scene sceneID="9bN-98-nqN">
             <objects>
-                <viewController id="aa5-er-XaE" sceneMemberID="viewController">
+                <viewController id="aa5-er-XaE" customClass="finishVcViewController" customModule="Swoosh_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zzo-yf-jlc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
