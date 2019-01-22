@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		84BB4DA121F0624D00D5D496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB4DA021F0624D00D5D496 /* AppDelegate.swift */; };
-		84BB4DA321F0624D00D5D496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB4DA221F0624D00D5D496 /* ViewController.swift */; };
+		84BB4DA321F0624D00D5D496 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB4DA221F0624D00D5D496 /* WelcomeVC.swift */; };
 		84BB4DA621F0624D00D5D496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BB4DA421F0624D00D5D496 /* Main.storyboard */; };
 		84BB4DA821F0625700D5D496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BB4DA721F0625700D5D496 /* Assets.xcassets */; };
 		84BB4DAB21F0625700D5D496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BB4DA921F0625700D5D496 /* LaunchScreen.storyboard */; };
 		84BB4DB421F069C300D5D496 /* borderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB4DB321F069C300D5D496 /* borderButton.swift */; };
+		84BB4DB621F7323B00D5D496 /* DesireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB4DB521F7323A00D5D496 /* DesireVC.swift */; };
+		84BB4DB821F732F100D5D496 /* finishVcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB4DB721F732F100D5D496 /* finishVcViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84BB4D9D21F0624D00D5D496 /* Swoosh App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swoosh App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BB4DA021F0624D00D5D496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84BB4DA221F0624D00D5D496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84BB4DA221F0624D00D5D496 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		84BB4DA521F0624D00D5D496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84BB4DA721F0625700D5D496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BB4DAA21F0625700D5D496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BB4DAC21F0625700D5D496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BB4DB321F069C300D5D496 /* borderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = borderButton.swift; sourceTree = "<group>"; };
+		84BB4DB521F7323A00D5D496 /* DesireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesireVC.swift; sourceTree = "<group>"; };
+		84BB4DB721F732F100D5D496 /* finishVcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finishVcViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,6 @@
 			children = (
 				84BB4DB221F0699A00D5D496 /* Views */,
 				84BB4DA021F0624D00D5D496 /* AppDelegate.swift */,
-				84BB4DA221F0624D00D5D496 /* ViewController.swift */,
 				84BB4DA421F0624D00D5D496 /* Main.storyboard */,
 				84BB4DA721F0625700D5D496 /* Assets.xcassets */,
 				84BB4DA921F0625700D5D496 /* LaunchScreen.storyboard */,
@@ -70,7 +73,10 @@
 		84BB4DB221F0699A00D5D496 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84BB4DA221F0624D00D5D496 /* WelcomeVC.swift */,
 				84BB4DB321F069C300D5D496 /* borderButton.swift */,
+				84BB4DB521F7323A00D5D496 /* DesireVC.swift */,
+				84BB4DB721F732F100D5D496 /* finishVcViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BB4DA321F0624D00D5D496 /* ViewController.swift in Sources */,
+				84BB4DA321F0624D00D5D496 /* WelcomeVC.swift in Sources */,
 				84BB4DA121F0624D00D5D496 /* AppDelegate.swift in Sources */,
+				84BB4DB621F7323B00D5D496 /* DesireVC.swift in Sources */,
+				84BB4DB821F732F100D5D496 /* finishVcViewController.swift in Sources */,
 				84BB4DB421F069C300D5D496 /* borderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
