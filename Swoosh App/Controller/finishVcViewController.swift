@@ -7,13 +7,13 @@
 //
 
 import UIKit
-
 class finishVcViewController: UIViewController {
-
+    var player:Player!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+       print("---"+player.desireLeague!)
         // Do any additional setup after loading the view.
+        
     }
     
 
